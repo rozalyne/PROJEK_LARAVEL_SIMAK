@@ -9,10 +9,16 @@ Installation
 In the root folder, find the .env file and change the following values
 
 APP_NAME=
+
 APP_URL=
+
 DB_DATABASE=
+
 DB_USERNAME=
+
 DB_PASSWORD=
+
+
 Through terminal or command prompt, update composer to install the dependencies:
 
 composer update
