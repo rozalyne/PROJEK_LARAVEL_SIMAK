@@ -1,3 +1,30 @@
+NOTE:
+
+FIX BUG EXPORT PDF
+FIX BUG IMPORT EXCEL
+
+Masih Banyak kekurangan di dalam projek ini masih banyak bug dan fitur yang harus di implementasikan
+
+Installation
+In the root folder, find the .env file and change the following values
+
+APP_NAME=
+APP_URL=
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+Through terminal or command prompt, update composer to install the dependencies:
+
+composer update
+Run the migration command to create the tables
+
+php artisan migrate
+Run the seeder to import mandatory values to the tables
+
+php artisan db:seed
+
+
+
 Credit To YT:https://www.youtube.com/watch?v=vCgsvdASoJA&list=PLhWDv4Vma6HsSDRgg9PCCJT2CksdydqH8 (Developer Cupu)
 
 Tampilan DASHBOARD
